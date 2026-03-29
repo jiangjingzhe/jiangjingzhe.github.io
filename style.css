@@ -21,7 +21,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: var(--font);
   color: var(--text-primary);
-  background: #07090f url('./assets/bg.jpg') center / cover fixed no-repeat;
+  background: #07090f url('./assets/background.jpeg') center / cover fixed no-repeat;
   min-height: 100vh;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -50,7 +50,7 @@ section {
 
 /* ── Typography ── */
 h2 {
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -133,7 +133,7 @@ a:hover { color: var(--accent-hover); }
 }
 
 .link-item {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.18s;
